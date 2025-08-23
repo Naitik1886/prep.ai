@@ -43,8 +43,6 @@
     "zod": "^3.23.8"
   },
   "devDependencies": {
-     "rollup": "4.9.6",
-    "vite": "5.0.8",
     "@eslint/js": "^9.32.0",
     "@types/node": "^24.2.1",
     "@types/react": "^19.1.9",
@@ -56,10 +54,10 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
     "lightningcss": "^1.30.1",
-    
+    "rollup": "4.9.6",
     "tw-animate-css": "^1.3.6",
     "typescript": "~5.8.3",
-    "typescript-eslint": "^8.39.0"
-    
+    "typescript-eslint": "^8.39.0",
+    "vite": "^7.1.3"
   }
 }
