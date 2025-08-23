@@ -31,7 +31,7 @@ function Homepage() {
         </div>
         <div className="w-full mt-4 rounded-xl flex items-center bg-gray-100 h-[420px] drop-shadow-md overflow-hidden relative">
           <img
-            src="/hero.jpeg"
+            src="/stat.avif"
             alt="hero"
             className="w-full h-full object-cover"
           />
@@ -64,7 +64,6 @@ function Homepage() {
           <MarqueImg img="/3.png" />
           <MarqueImg img="/4.png" />
           <MarqueImg img="/5.png" />
-          <MarqueImg img="/6.png" />
 
         </Marquee>
 
@@ -78,7 +77,7 @@ function Homepage() {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-3">
           <div className="col-span-1 md:col-span-3">
             <img
-              src="/office.jpg"
+              src="/hero.webp"
               alt=""
               className="w-full max-h-96 rounded-md object-cover"
             />

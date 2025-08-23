@@ -89,7 +89,7 @@ next-env.d.ts
 
 # Gatsby files
 .cache/
-public
+
 
 # Vue.js
 .vuepress/dist/
