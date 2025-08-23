@@ -6,7 +6,7 @@ import tailwindcss from "@tailwindcss/vite"
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   css: {
-    transformer: "postcss", // 👈 force PostCSS, skip lightningcss
+    transformer: "postcss", // 👈 disable lightningcss, fallback to PostCSS
   },
   resolve: {
     alias: {
