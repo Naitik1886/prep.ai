@@ -7,10 +7,12 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   css: {
     transformer: "postcss", // 👈 disable lightningcss, fallback to PostCSS
+     lightningcss: false,
   },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
+      
     },
   },
   build: {
