@@ -19,7 +19,7 @@ import {
   TooltipContent,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-import { Newspaper, Pencil, Sparkles, Trash2 } from "lucide-react";
+import { MessageCircleMore, Newspaper, Pencil, Play, Sparkles, Trash2 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { TooltipButton } from "./tooltip-button";
 
@@ -92,7 +92,7 @@ export default function InterviewPin({interview , onMockPage = false} :pinProps)
               }}
               disbaled={false}
               buttonClassName="hover:text-emerald-500"
-              icon={<Newspaper />}
+              icon={<MessageCircleMore/>}
               loading={false}
             />
 
@@ -104,7 +104,7 @@ export default function InterviewPin({interview , onMockPage = false} :pinProps)
               }}
               disbaled={false}
               buttonClassName="hover:text-sky-500"
-              icon={<Sparkles />}
+              icon={<Play />}
               loading={false}
             />
           </div>
