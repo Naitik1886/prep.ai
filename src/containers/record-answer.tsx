@@ -62,7 +62,7 @@ export default function RecordAnswer({ question, isWebcam, setIsWebcam }: Record
     setIsAiGenerating(true)
     const apiKey = import.meta.env.VITE_GEMINI_API_KEY!;
     const genAI = new GoogleGenerativeAI(apiKey);
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
     const chat = model.startChat();
 
